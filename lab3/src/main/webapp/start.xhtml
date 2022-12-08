@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+    <title>Lab 3</title>
+    <h:outputStylesheet library="css" name="style.css" />
+</h:head>
+
+<h:body>
+    <div id="header">
+        <h2>Mustafin Rodion Andreevich</h2>
+        <h4>P32301</h4>
+        <h4>Lab 1 - Web 330555</h4>
+    </div>
+    <div class="form_block" id="time_wrapper">
+        <p id="interactive_time"></p>
+    </div>
+    <h:form>
+        <h:commandButton value="Follow the link" action="gotoMain"/>
+    </h:form>
+    <h:outputScript library="js" name="time.js"/>
+</h:body>
+
+</html>
